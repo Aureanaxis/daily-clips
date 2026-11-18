@@ -19,6 +19,8 @@ Lesson spec (JSON):
  "bullets": ["...", "...", "..."],
  "cover_sub": "Short subtitle for the light cover"
 }
+Add --tiktok as the last argument to render a TikTok-safe copy (<slug>_tt.mp4) whose end card says
+"Follow @aureanaxis" instead of a DM ask. Optional "cta" key overrides the end-card pill text.
 Promo spec: {"slug","theme","kicker","head":["line","*gold line"],"points":["..",".."],"cta":"DM \\"PARTNER\\""}
 """
 import json, os, sys, random
@@ -313,7 +315,7 @@ def render_lesson(spec, out_dir, music=None, offset=0.0):
     parts += [frames(scene_hook(spec), 3.0, intro=0.15, span=0.6, anim=0.5),
               frames(scene_chart(spec), 8.0, intro=0.1, span=4.6, anim=0.45),
               frames(scene_how(spec), 5.0, intro=0.1, span=2.4, anim=0.5),
-              frames(scene_cta(spec["n"] + 3), 4.2, intro=0.1, span=1.2, anim=0.5)]
+              frames(scene_cta(spec["n"] + 3, cta=spec.get("cta", 'DM "GOLD"')), 4.2, intro=0.1, span=1.2, anim=0.5)]
     dur = sum([2.5 if spec.get("theme") == "light" else 0, 3.0, 8.0, 5.0, 4.2])
 
     def it():
@@ -395,7 +397,12 @@ def promo_cover(spec, out):
 
 
 if __name__ == "__main__":
-    kind, spec_path, out_dir = sys.argv[1:4]
+    args = [a for a in sys.argv[1:] if a != "--tiktok"]
+    kind, spec_path, out_dir = args[:3]
     spec = json.load(open(spec_path))
-    music = sys.argv[4] if len(sys.argv) > 4 else None
+    music = args[3] if len(args) > 3 else None
+    if "--tiktok" in sys.argv:  # TikTok-safe copy: no DM ask on screen
+        spec["slug"] += "_tt"; spec["cta"] = "Follow @aureanaxis"
+        if kind != "lesson":
+            spec["cta_head"] = ["Learn more,", "follow along."]
     print((render_lesson if kind == "lesson" else render_promo)(spec, out_dir, music))
