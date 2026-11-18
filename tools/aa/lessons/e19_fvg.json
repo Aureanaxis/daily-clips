@@ -1,0 +1,6 @@
+{"n":19,"slug":"e19_fvg","theme":"dark","hook":"What is a fair value gap?","chart_title":"Fair value gap (FVG)",
+"candles":[[100,102,98,101],[101,103,99,100],[100,101,97,98],[98,99,96,97],[97,99,96,98],[98,108,97,107],[107,111,106,110],[110,112,108,109],[109,110,105,106],[106,107,103,104],[104,108,103,107],[107,112,106,111]],
+"marks":[{"type":"zone","i0":4,"i1":6,"y0":99,"y1":106,"label":"FVG"},{"type":"tag","i":5,"text":"Big displacement candle","pos":"above"},{"type":"tag","i":9,"text":"Price returns to fill","pos":"below"}],
+"explain":"A gap left by one big candle, where wick 1 and wick 3 don't overlap. Price often comes back to fill it.",
+"how_title":"How to use it","bullets":["Mark the gap between candle 1's wick and candle 3's wick","Wait for price to come back into the zone","Look for a reaction there, with your stop beyond it"],
+"cover_sub":"The gap price loves to come back to."}

@@ -1,0 +1,6 @@
+{"n":20,"slug":"e20_liquidity_sweep","theme":"light","hook":"What is a liquidity sweep?","chart_title":"Liquidity sweep",
+"candles":[[108,109,104,105],[105,106,101,102],[102,104,100,103],[103,105,101,104],[104,105,100.2,101],[101,103,100.1,102.5],[102.5,103,99.8,100.5],[100.5,101,96,100.8],[100.8,105,100.5,104.5],[104.5,108,104,107.5],[107.5,110,107,109.5]],
+"marks":[{"type":"hline","y":100,"label":"Equal lows"},{"type":"ring","i":7},{"type":"tag","i":7,"text":"Stops taken","pos":"below"},{"type":"tag","i":9,"text":"Real move","pos":"above"}],
+"explain":"Price dips below an obvious level, takes the stop losses resting there, then snaps back the other way.",
+"how_title":"How to use it","bullets":["Spot obvious highs or lows where stops sit","Wait for the wick through and a close back inside","Never chase the first break of a level"],
+"cover_sub":"Why price takes your stop, then flies."}

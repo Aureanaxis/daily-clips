@@ -1,0 +1,8 @@
+{"slug":"opal_ad_2026-11-19","music":"opal_theme_d.m4a","scenes":[
+ {"template":"statement","args":{"seed":41,"kicker_txt":"BE HONEST","head":["How many times","*did you post","*this week?"],"size":110},"vo":"Be honest. How many times did your page post this week?"},
+ {"template":"stat","args":{"seed":42,"kicker_txt":"WHAT WE POST","number":"20","label":"reels a day","body":"For every trading brand we run.","source":null},"vo":"We post twenty reels a day for the brands we run."},
+ {"template":"listing","args":{"seed":43,"kicker_txt":"EVERY PLATFORM","head":["Done for you,","*everywhere"],"items":[["Instagram & Facebook",null],["TikTok","Paced to keep you safe"],["X & YouTube Shorts",null]],"numbered":false},"vo":"Instagram, Facebook, TikTok, X and YouTube. Every single day."},
+ {"template":"stat","args":{"seed":44,"kicker_txt":"LAST 60 DAYS","number":"4.36M","label":"views","body":"From reels built the same way we'll build yours.","source":"Instagram Insights · trading pages we run"},"vo":"Our system pulled four point three million views in sixty days."},
+ {"template":"statement","args":{"seed":45,"kicker_txt":"YOUR JOB","head":["You trade.","*We post."],"body":"Editing, captions, scheduling and posting, all handled.","size":120},"vo":"You trade. We handle the editing, the captions and the posting."},
+ {"template":"cta","args":{"seed":46,"head":["Your feed,","*handled."],"sub":"Book a free strategy call today."},"vo":"Opal Marketing. D.M. us “Opal” to book your call."}
+]}

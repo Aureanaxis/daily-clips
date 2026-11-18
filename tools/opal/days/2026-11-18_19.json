@@ -1,0 +1,5 @@
+{"offset": 0, "posts": [
+ {"slug":"o_2026-11-18_c","theme":"navy","template":"statement","args":{"seed":21,"kicker_txt":"QUICK QUESTION","head":["When did your page","*last post?"],"body":"If you had to scroll to find it, your audience already noticed.","sub":"We post for you every day, on every platform."}},
+ {"slug":"o_2026-11-19_a","theme":"light","template":"listing","args":{"seed":22,"kicker_txt":"WHAT WE HANDLE","head":["Everything except","*the trading"],"items":[["Daily reels","Edited, captioned, posted"],["Story sequences","Saved into your highlights"],["Clipping pages","Extra reach from your best moments"],["Automated posting","IG, FB, X, TikTok, YouTube"]]}},
+ {"slug":"o_2026-11-19_c","theme":"light","template":"stat","args":{"seed":23,"kicker_txt":"AUTOMATED POSTING","number":"0","label":"hours of your week","body":"Content made, scheduled and posted for you, on every platform, every day.","source":null}}
+]}
