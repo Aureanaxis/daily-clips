@@ -1,0 +1,5 @@
+{"offset": 3, "posts": [
+ {"slug":"o_2026-11-20_a","theme":"navy","template":"myth","args":{"seed":26,"myth_txt":"Reels only reach the people who already follow you.","fact_head":["Reels are built","*for new people"],"fact_body":"97% of the 4.36M Instagram views on trading pages we run came from non-followers (60 days, Instagram Insights)."}},
+ {"slug":"o_2026-11-20_b","theme":"light","template":"listing","args":{"seed":27,"kicker_txt":"WHO WE WORK WITH","head":["Made for","*trading brands"],"numbered":false,"items":[["Prop firms","Daily content that builds trust in your challenge"],["Brokers & IBs","A page that looks as solid as your platform"],["Educators","Your lessons clipped into daily reels"],["VIP communities","Content that keeps members coming back"]]}},
+ {"slug":"o_2026-11-20_c","theme":"navy","template":"statement","args":{"seed":29,"kicker_txt":"BEHIND THE SCENES","head":["Every reel starts","*with the hook"],"body":"We write the first second before anything else. If it doesn't stop the scroll, it doesn't get posted.","sub":"Edited, captioned and posted for you, every day."}}
+]}
