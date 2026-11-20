@@ -1,0 +1,5 @@
+{"offset": 6, "posts": [
+ {"slug":"o_2026-11-21_a","theme":"light","template":"offer","args":{"seed":41}},
+ {"slug":"o_2026-11-21_b","theme":"navy","template":"statement","args":{"seed":44,"kicker_txt":"YOUR PAGE, YOUR CHOICE","head":["Rather post","*it yourself?"],"body":"We can post for you, or drop every finished reel into your private Google Drive.","sub":"Either way, your content is ready every day."}},
+ {"slug":"o_2026-11-21_c","theme":"light","template":"cta","args":{"seed":47,"head":["Traders trust pages","*that show up daily"],"sub":"Reels, stories and Shorts, posted for you on every platform."}}
+]}
