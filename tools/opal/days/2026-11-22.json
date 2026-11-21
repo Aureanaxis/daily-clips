@@ -1,0 +1,5 @@
+{"offset": 9, "posts": [
+ {"slug":"o_2026-11-22_a","theme":"navy","template":"stat","args":{"seed":53,"kicker_txt":"CLIPPING PAGES","number":"14","label":"clips a day, per page","body":"Every extra clipping page posts 14 fresh clips a day. More pages, more reach, more DMs.","source":"Extra clipping pages: £1,000/month each"}},
+ {"slug":"o_2026-11-22_b","theme":"light","template":"listing","args":{"seed":58,"kicker_txt":"YOUR FIRST WEEK","head":["Fully running","*in 7 days"],"numbered":true,"items":[["Intro call","Your goals, your audience, your offer"],["Brand kit & grid plan","Colours, fonts and a grid that looks premium"],["First batch","Your first reels, written and edited"],["Fully running","Posting every day on every platform"]]}},
+ {"slug":"o_2026-11-22_c","theme":"navy","template":"statement","args":{"seed":61,"kicker_txt":"STORIES & HIGHLIGHTS","head":["Your highlights","*are your sales page"],"body":"New visitors tap your highlights before they ever DM. We build two story sequences a week to keep them full.","sub":"Results, offers and FAQs, always up to date."}}
+]}
