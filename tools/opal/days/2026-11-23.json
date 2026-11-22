@@ -1,0 +1,5 @@
+{"offset": 12, "posts": [
+ {"slug":"o_2026-11-23_a","theme":"light","template":"statement","args":{"seed":67,"kicker_txt":"AUTOMATED POSTING","head":["Posted on time,","*every time"],"body":"Every reel is scheduled to the minute across Instagram, Facebook, TikTok and more. No missed days, no late nights.","sub":"You trade. We post."}},
+ {"slug":"o_2026-11-23_b","theme":"navy","template":"listing","args":{"seed":72,"kicker_txt":"INTERACTIVE STICKERS","head":["Stickers that","*start DMs"],"numbered":false,"items":[["Polls","Easy taps that warm up new viewers"],["Question box","Your audience tells you what to post"],["Quizzes","Turn trading tips into a quick game"],["Sliders","Gauge interest before you launch an offer"]]}},
+ {"slug":"o_2026-11-23_c","theme":"light","template":"myth","args":{"seed":79,"myth_txt":"More followers means more clients.","fact_head":["Followers don't pay.","*DMs do."],"fact_body":"Every reel we post ends with one clear next step, so viewers turn into conversations."}}
+]}
