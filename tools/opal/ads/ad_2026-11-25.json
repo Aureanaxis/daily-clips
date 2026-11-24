@@ -1,0 +1,9 @@
+{"slug":"opal_ad_2026-11-25","music":"opal_theme_d.m4a","scenes":[
+ {"template":"statement","args":{"seed":121,"kicker_txt":"QUICK QUESTION","head":["Who runs your","*page while","*you trade?"],"size":110},"vo":"Quick question. Who's running your page while you trade?"},
+ {"template":"statement","args":{"seed":122,"kicker_txt":"THE PROBLEM","head":["Charts all day.","*Posts never."],"body":"Most trading brands go quiet because nobody owns the content.","size":110},"vo":"For most trading brands, nobody. So the page goes quiet."},
+ {"template":"stat","args":{"seed":123,"kicker_txt":"WHAT WE DO","number":"20","label":"reels a day","body":"Edited, captioned and posted for you.","source":null},"vo":"We post twenty reels a day for the brands we run."},
+ {"template":"listing","args":{"seed":124,"kicker_txt":"EVERY PLATFORM","head":["Done for you,","*everywhere"],"items":[["Instagram & Facebook",null],["TikTok","Paced to keep you safe"],["X & YouTube Shorts",null]],"numbered":false},"vo":"Instagram, Facebook, TikTok, X and YouTube."},
+ {"template":"stat","args":{"seed":125,"kicker_txt":"LAST 60 DAYS","number":"4.36M","label":"views","body":"97% from people who didn't follow yet.","source":"Instagram Insights · trading pages we run"},"vo":"Four point three million views in sixty days, mostly from new people."},
+ {"template":"statement","args":{"seed":126,"kicker_txt":"YOUR JOB","head":["You trade.","*We post."],"size":120},"vo":"You trade. We post."},
+ {"template":"cta","args":{"seed":127,"head":["Your page,","*running daily."],"sub":"Book your free call today."},"vo":"Opal Marketing. D.M. us “Opal” to book your call."}
+]}
