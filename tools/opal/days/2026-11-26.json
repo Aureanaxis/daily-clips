@@ -1,0 +1,5 @@
+{"offset": 21, "posts": [
+ {"slug":"o_2026-11-26_a","theme":"navy","template":"listing","args":{"seed":131,"kicker_txt":"BEHIND THE SCENES","head":["How every reel","*gets made"],"numbered":true,"items":[["The hook","Written to stop a trader mid-scroll"],["The edit","Cut fast, captioned, on brand"],["The check","Every reel reviewed before it goes out"],["The post","Scheduled and paced on every platform"]]}},
+ {"slug":"o_2026-11-26_b","theme":"light","template":"stat","args":{"seed":136,"kicker_txt":"YOUTUBE SHORTS","number":"5 a day","label":"YouTube Shorts on your channel","body":"Your reels don't stop at Instagram. Every Main Page Package includes 5 Shorts a day on YouTube.","source":"Main Page Package · £1,500/month"}},
+ {"slug":"o_2026-11-26_c","theme":"navy","template":"cta","args":{"seed":142,"head":["Your next client","*is scrolling now"],"sub":"Be on their screen every day, on every platform."}}
+]}
