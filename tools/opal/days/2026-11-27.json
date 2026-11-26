@@ -1,0 +1,66 @@
+{
+ "offset": 24,
+ "posts": [
+  {
+   "slug": "o_2026-11-27_a",
+   "theme": "light",
+   "template": "listing",
+   "args": {
+    "seed": 151,
+    "kicker_txt": "PREMIUM PAGE CHECKLIST",
+    "head": [
+     "Does your page",
+     "*look premium?"
+    ],
+    "numbered": false,
+    "items": [
+     [
+      "A clean grid",
+      "Every tile looks like one brand"
+     ],
+     [
+      "Sharp highlights",
+      "Answers before they even ask"
+     ],
+     [
+      "Fresh reels daily",
+      "Proof you're active right now"
+     ],
+     [
+      "A clear next step",
+      "One CTA: send a DM"
+     ]
+    ]
+   }
+  },
+  {
+   "slug": "o_2026-11-27_b",
+   "theme": "navy",
+   "template": "stat",
+   "args": {
+    "seed": 157,
+    "kicker_txt": "REACH BEYOND FOLLOWERS",
+    "number": "4.36M",
+    "label": "Instagram views in 60 days",
+    "body": "Across trading pages we run. 97% of those views came from people who didn't follow yet.",
+    "source": "Instagram Insights · 60 days"
+   }
+  },
+  {
+   "slug": "o_2026-11-27_c",
+   "theme": "light",
+   "template": "statement",
+   "args": {
+    "seed": 163,
+    "kicker_txt": "EVERY SINGLE DAY",
+    "head": [
+     "Markets close Friday.",
+     "*Your page doesn't."
+    ],
+    "body": "We post every day, weekends included, so your brand keeps reaching new traders while you rest.",
+    "sub": "You trade. We post.",
+    "size": 90
+   }
+  }
+ ]
+}
