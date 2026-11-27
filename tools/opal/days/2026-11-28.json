@@ -1,0 +1,44 @@
+{
+ "offset": 27,
+ "posts": [
+  {
+   "slug": "o_2026-11-28_a",
+   "theme": "navy",
+   "template": "offer",
+   "args": {
+    "seed": 173
+   }
+  },
+  {
+   "slug": "o_2026-11-28_b",
+   "theme": "light",
+   "template": "statement",
+   "args": {
+    "seed": 179,
+    "kicker_txt": "CONSISTENCY BUILDS TRUST",
+    "head": [
+     "One viral reel",
+     "won't build trust.",
+     "*Showing up daily will."
+    ],
+    "body": "Traders follow pages they see every day. Consistency is what turns a viewer into a DM.",
+    "sub": "You trade. We post.",
+    "size": 86
+   }
+  },
+  {
+   "slug": "o_2026-11-28_c",
+   "theme": "navy",
+   "template": "myth",
+   "args": {
+    "seed": 181,
+    "myth_txt": "Agencies don't understand trading.",
+    "fact_head": [
+     "We only work",
+     "*with trading brands"
+    ],
+    "fact_body": "Prop firms, brokers & IBs, educators and VIP communities. Trading content is all we make."
+   }
+  }
+ ]
+}
