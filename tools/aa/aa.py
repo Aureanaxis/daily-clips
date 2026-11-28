@@ -326,7 +326,7 @@ def render_lesson(spec, out_dir, music=None, offset=0.0):
     encode(it(), (W, H), out, dur, music_offset=offset, music=music, afade=1.2, vfade_out=0.4)
     light_cover(spec, os.path.join(out_dir, slug + "_cover_light.jpg"))
     # dark tiles: cover frame = hook scene fully revealed (~2.2 s in, +2.5 s if light opener)
-    info = {"cover_ms": 2200 + (2500 if spec.get("theme") == "light" else 0), "duration": dur}
+    info = {"cover_ms": 1300 if spec.get("theme") == "light" else 2200, "duration": dur}  # light: ivory opener tile
     json.dump(info, open(os.path.join(out_dir, slug + ".json"), "w"))
     return out
 
@@ -376,7 +376,7 @@ def render_promo(spec, out_dir, music=None, offset=0.0):
     out = os.path.join(out_dir, spec["slug"] + ".mp4")
     encode(it(), (W, H), out, dur, music_offset=offset, music=music, afade=1.2, vfade_out=0.4)
     promo_cover(spec, os.path.join(out_dir, spec["slug"] + "_cover_light.jpg"))
-    json.dump({"cover_ms": 2800 + (2500 if spec.get("theme") == "light" else 0), "duration": dur},
+    json.dump({"cover_ms": 1300 if spec.get("theme") == "light" else 2800, "duration": dur},
               open(os.path.join(out_dir, spec["slug"] + ".json"), "w"))
     return out
 
