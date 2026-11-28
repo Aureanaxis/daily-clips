@@ -1,0 +1,6 @@
+{"n":21,"slug":"e21_fibonacci","theme":"light","hook":"How do you use fibonacci retracement?","chart_title":"Fibonacci retracement",
+"candles":[[100,102,99.5,101.5],[101.5,105,101,104.5],[104.5,109,104,108.5],[108.5,114,108,113.5],[113.5,120,113,119.5],[119.5,120,116,116.5],[116.5,117,112,112.5],[112.5,113,109,109.8],[109.8,110.5,107.4,110],[110,114,109.5,113.5],[113.5,118,113,117.5],[117.5,123,117,122.5]],
+"marks":[{"type":"hline","y":110,"label":"50%"},{"type":"hline","y":107.6,"label":"61.8%"},{"type":"tag","i":4,"text":"Swing high","pos":"above"},{"type":"ring","i":8},{"type":"tag","i":8,"text":"Pullback holds","pos":"below"}],
+"explain":"Draw the fib from the swing low to the swing high. Pullbacks often pause around the 50% and 61.8% levels before the trend carries on.",
+"how_title":"How to use it","bullets":["Pick a clear swing low and swing high","Watch the 50% to 61.8% area on the pullback","Wait for a reaction candle before acting"],
+"cover_sub":"Where pullbacks love to pause."}

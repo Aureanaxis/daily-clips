@@ -1,0 +1,6 @@
+{"n":22,"slug":"e22_inside_bar","theme":"light","hook":"What is an inside bar?","chart_title":"Inside bar",
+"candles":[[100,101.5,99.5,101],[101,103,100.5,102.5],[102.5,104.5,102,104],[104,108,103.5,107.5],[107.5,107.8,105.2,106.2],[106.2,106.8,105.5,106.5],[106.5,109.5,106.3,109.2],[109.2,111,108.8,110.6],[110.6,112.5,110,112]],
+"marks":[{"type":"tag","i":3,"text":"Mother bar","pos":"above"},{"type":"ring","i":4},{"type":"tag","i":4,"text":"Inside bar","pos":"below"},{"type":"tag","i":6,"text":"Break of the high","pos":"above"}],
+"explain":"An inside bar is a candle whose high and low sit completely inside the candle before it. It shows the market pausing before its next move.",
+"how_title":"How to use it","bullets":["Find a candle fully inside the previous one","Mark the mother bar's high and low","Wait for a close outside the range, not a guess"],
+"cover_sub":"The candle that shows a pause."}
